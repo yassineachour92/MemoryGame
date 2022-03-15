@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .app-title {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .app-banner {
+    background: rgb(70, 192, 248);
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: -50px;
+    top: 30px;
+    padding: 10px 40px;
+    transform: rotate(-45deg);
+  }
+}
